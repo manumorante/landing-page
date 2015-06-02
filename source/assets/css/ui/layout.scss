@@ -1,0 +1,18 @@
+/**
+ * Layout
+ */
+
+@import "../config";
+
+*,
+*:after,
+*::before {
+  @include optimize-legibility;
+  @include box-sizing(border-box);
+}
+
+html,
+body{
+  background-color: $black;
+  overflow-x: hidden;
+}

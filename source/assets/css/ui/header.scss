@@ -1,0 +1,17 @@
+/**
+ * Header
+ */
+
+.main-header{
+  width: 100%;
+  min-height: 60px;
+  padding-top: 18px;
+
+  text-align: center;
+  background-color: #000;
+
+  .logo {
+    @include inline-block;
+  }
+}
+

@@ -1,0 +1,37 @@
+/**
+ * New customer offer (image version - not used)
+ *
+ */
+.new-customer-offer{
+  display: block;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(#0d1926, .9);
+  border: 3px solid rgba(#666, .9);
+
+  margin: 15px auto;
+  text-align: center;
+
+  .text{
+    @include inline-block;
+  }
+
+  @include at-small{
+    .text{
+      margin-bottom: 30px;
+    }
+  }
+
+  @include at-medium{
+    width: 600px;
+    height: 700px;
+    margin: 40px auto 25px;
+    padding: 0;
+
+    .text{
+      padding: 30px 60px;
+      margin-bottom: 30px;
+    }
+  }
+
+}
