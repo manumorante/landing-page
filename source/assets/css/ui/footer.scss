@@ -1,0 +1,50 @@
+/**
+ * Footer
+ */
+
+@import "../config";
+
+.main-footer{
+  width: 100%;
+  text-align: center;
+
+  .logo{
+    margin: 50px 0;
+    @include inline-block;
+  }
+}
+
+.footer-nav{
+  ul,
+  ol{
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    display: block;
+    text-align: left;
+
+    border-top: 1px solid #4a4a4a;
+    border-bottom: 1px solid #000;
+    background-color: #353535;
+  }
+
+  a{
+    display: block;
+    padding: 16px 0;
+
+    font-size: 14px;
+    font-family: $base-font;
+    color: $gray-1;
+
+    @include at-small{
+      padding: 12px 0;
+      font-size: 12px;
+    }
+
+    .glyphicon{
+      float: right;
+    }
+  }
+}
